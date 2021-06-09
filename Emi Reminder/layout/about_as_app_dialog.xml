@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"
+        android:text="About us"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="Developed by"
+          android:textSize="@dimen/_12sdp"
+          android:gravity="center"
+          android:padding="@dimen/_10sdp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:gravity="center"
+            android:background="@color/gray"
+            android:padding="@dimen/_10sdp"/>
+
+        <LinearLayout
+            android:padding="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:textSize="@dimen/_12sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Arjav Prajapati"
+            android:gravity="center" />
+
+            <TextView
+                android:textSize="@dimen/_12sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Summer Internship 2021"
+                android:gravity="center" />
+
+            <TextView
+                android:textSize="@dimen/_12sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Akash Technolabs"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:gravity="center"
+            android:background="@color/gray"
+            android:padding="@dimen/_10sdp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
